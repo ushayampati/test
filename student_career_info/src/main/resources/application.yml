@@ -1,0 +1,24 @@
+server:
+  port: 8988
+
+spring:
+  datasource:
+    icdb:
+      jdbcUrl: jdbc:postgresql://localhost:5433/postgres
+      password: 1994
+      username: postgres
+      driverClassName: org.postgresql.Driver
+      type: com.zaxxer.hikari.HikariDataSource
+      idleTimeout: 10000
+      connectionTestQuery: SELECT 1
+      minimumIdle: 5
+      maximumPoolSize: 40
+      validationTimeout: 10000
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL94Dialect
+        defaultSchema: unh_it
+        useJdbcMetadataDefaults: false
+        showSql: true
+        entityPackagesToScan: unh.it.student_career_info.entity
+
+

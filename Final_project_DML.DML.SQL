@@ -1,0 +1,2 @@
+INSERT INTO unh_it.student_career_info(id,first_name,last_name,graduation_year,major,email,phone,organization_name,role,city,state,date_hired,linkedin_url,latitude,longitude)
+VALUES (101,'Pradeep','Kumar',2020,'IT','Pradeep@gmail.com',111111112,'Google','Senior Developer','Hyderabad','Telangana','14-nov-2020','Pradeep','53.4808','2.2426');

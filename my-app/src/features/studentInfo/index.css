@@ -1,0 +1,52 @@
+.studentInputs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 65px;
+}
+
+.studentInputMajor {
+  display: flex;
+  width: 26%;
+  height: 34px;
+
+}
+
+.studentInputYear {
+  display: flex;
+  width: 26%;
+  height: 34px;
+}
+
+.map-container {
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 38px 0 0 159px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.close-modal {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
